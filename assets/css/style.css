@@ -3720,7 +3720,7 @@ a:hover {
   background-color: #555;
   margin: 0 4px;
   border-radius: 0;
-  opacity: 0;
+  opacity: 0.1;
   transition: 0.3s;
 }
 
