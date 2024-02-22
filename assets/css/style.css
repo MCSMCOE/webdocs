@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #5faee3;
+  r: #5faee3;
   text-decoration: none;
 }
 
@@ -3431,7 +3431,7 @@ a:hover {
 }
 
 .color-b {
-  color: #2eca6a;
+  color: #3498db;
 }
 
 .color-d {
