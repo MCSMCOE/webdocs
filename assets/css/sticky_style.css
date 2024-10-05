@@ -1,0 +1,71 @@
+.stiky-notification {
+  /* position: fixed; */
+  content: "";
+  left: 5px;
+  bottom: 10%;
+  height: auto;
+  width: 200px;
+  background-color: #ffffff;
+  /* border: 1px solid  rgb(246, 121, 11); */
+  border-radius: 4px;
+  z-index: 12;
+  padding: 8px;
+}
+.notification-details {
+  position: fixed;
+  content: "";
+  left: 5px;
+  bottom: 10%;
+  height: 335px;
+  width: 250px;
+  background-color: transparent;
+  border-radius: 4px;
+  z-index: 12;
+  padding: 10px;
+  display: block;
+  background-image: url(../images/sticky-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding-top: 60px;
+  overflow:hidden;
+  padding-bottom:20px;
+}
+.stiky-notification a {
+  color: #002449;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.stiky-notification a:hover {
+  text-decoration: none;
+}
+.stiky-notification ul {
+  padding-left: 7px;
+  list-style: none;
+}
+.notification-link {
+   background-color: #ffffff;
+}
+.notification-link h4,
+.notification-details h4 {
+  display:block;
+  margin:0 auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  background-color: transparent;
+  color: #002449;
+}
+.link-outer {
+  overflow: hidden;
+  height: 200px;
+}
+.link-outer ol {
+  padding-left: 16px;
+}
+#carouselExampleControls12 {
+  padding-top: 5px;
+}
