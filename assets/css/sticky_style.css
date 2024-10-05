@@ -2,7 +2,7 @@
   /* Position it to the top-right below the header */
   position: absolute; /* Use absolute to position it relative to its parent container */
   top: 100px; /* Adjust this value based on the height of your header */
-  right: 20px; /* Align to the right side */
+  right: 55px; /* Align to the right side */
   height: auto;
   width: 200px;
   background-color: #ffffff00;
@@ -14,7 +14,7 @@
 .notification-details {
   position: absolute; /* Keep in sync with .stiky-notification */
   top: 100px; /* Same as above to keep both aligned */
-  right: 20px; /* Same as above to align with .stiky-notification */
+  right: 55px; /* Same as above to align with .stiky-notification */
   height: 335px;
   width: 250px;
   background-color: transparent;
