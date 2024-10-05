@@ -1,22 +1,20 @@
 .stiky-notification {
-  /* position: fixed; */
-  content: "";
+  /* Move it to the top below the header */
+  position: fixed;
+  top: 80px; /* Adjust this value based on the height of your header */
   left: 5px;
-  bottom: 10%;
   height: auto;
   width: 200px;
   background-color: #ffffff;
-  /* border: 1px solid  rgb(246, 121, 11); */
   border-radius: 4px;
   z-index: 12;
   padding: 8px;
-
 }
+
 .notification-details {
   position: fixed;
-  content: "";
+  top: 80px; /* Keep this in sync with .stiky-notification */
   left: 5px;
-  bottom: 10%;
   height: 335px;
   width: 250px;
   background-color: transparent;
@@ -29,9 +27,10 @@
   background-position: center;
   background-size: 100% 100%;
   padding-top: 40px;
-  overflow:hidden;
-  padding-bottom:20px;
+  overflow: hidden;
+  padding-bottom: 20px;
 }
+
 .stiky-notification a {
   color: #002449;
   font-size: 14px;
@@ -39,20 +38,24 @@
   font-weight: 500;
   text-transform: capitalize;
 }
+
 .stiky-notification a:hover {
   text-decoration: none;
 }
+
 .stiky-notification ul {
   padding-left: 7px;
   list-style: none;
 }
+
 .notification-link {
-   background-color: #ffffff;
+  background-color: #ffffff;
 }
+
 .notification-link h4,
 .notification-details h4 {
-  display:block;
-  margin:0 auto;
+  display: block;
+  margin: 0 auto;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
@@ -60,10 +63,12 @@
   background-color: transparent;
   color: #002449;
 }
+
 .link-outer {
   overflow: hidden;
   height: 200px;
 }
+
 .link-outer ol {
   padding-left: 16px;
 }
@@ -71,37 +76,19 @@
 #carouselExampleControls12 {
   padding-top: 5px;
 }
-/* .notification-details {    
-  display: none;    
-} */
-/* .stiky-notification:hover .notification-details {
-  display: block;
-  animation: view 0.5s linear;
-} */
 
-.evaluator-reg {
-  padding-top: 45px;
-}
-.ytp-cued-thumbnail-overlay-image {
-  background-position: right !important;
-}
-.nsa-video-ptn::after {
-  bottom: 52px;
-}
-.nsa-video-ptn {
-  top: 40px;
-}
-
+/* Adjusted animation for view */
 @keyframes view {
-  0%{ opacity:0 }
-  100%{ opacity:1 }
+  0% { opacity: 0 }
+  100% { opacity: 1 }
 }
 
+/* Media query for responsiveness */
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .stiky-notification {
-      display: none;
+    display: none;
   }
   .evaluator-reg {
-      padding-top: 100px;
+    padding-top: 100px;
   }
-} 
+}
