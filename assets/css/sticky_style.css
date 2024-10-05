@@ -1,6 +1,6 @@
 .stiky-notification {
   /* Move it to the top below the header */
-  position: fixed;
+  position: relative;
   top: 250px; /* Adjust this value based on the height of your header */
   right: 55px;
   height: auto;
@@ -12,7 +12,7 @@
 }
 
 .notification-details {
-  position: fixed;
+  position: relative;
   top: 250px; /* Keep this in sync with .stiky-notification */
   right: 55px;
   height: 335px;
