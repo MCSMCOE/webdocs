@@ -77,6 +77,11 @@
   padding-top: 5px;
 }
 
+
+.carouselExampleControls12-indicators {
+  display: none;
+}
+
 /* Adjusted animation for view */
 @keyframes view {
   0% { opacity: 0 }
