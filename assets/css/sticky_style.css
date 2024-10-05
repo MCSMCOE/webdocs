@@ -14,7 +14,7 @@
 .notification-details {
   position: fixed;
   content: "";
-  left: 5px;
+  left: 15px;
   bottom: 10%;
   height: 335px;
   width: 250px;
