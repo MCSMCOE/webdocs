@@ -2,7 +2,7 @@
   /* Move it to the top below the header */
   position: fixed;
   top: 70px; /* Adjust this value based on the height of your header */
-  right: 5px;
+  right: 15px;
   height: auto;
   width: 200px;
   background-color: #ffffff;
@@ -14,7 +14,7 @@
 .notification-details {
   position: fixed;
   top: 70px; /* Keep this in sync with .stiky-notification */
-  right: 5px;
+  right: 15px;
   height: 335px;
   width: 250px;
   background-color: transparent;
